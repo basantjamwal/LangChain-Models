@@ -1,0 +1,17 @@
+# Environment & secrets
+.env
+.env.*
+!.env.example
+.history/
+
+# Virtual environments
+venv/
+__pycache__/
+
+# Node
+node_modules/
+
+# Logs
+*.log
+
+test.py
