@@ -1,9 +1,9 @@
-from langchain_anthropic import AnthropicLLM
+from langchain_openai import AzureOpenAI
 from dotenv import load_dotenv
 
 load_dotenv()
 
-llm = AnthropicLLM(model_name="claude-3-sonnet")
-result = llm.invoke("what is IP means ?")
+llm = AzureOpenAI(model="gpt-4")
+result = llm.invoke("what is GST")
 
 print(result)
